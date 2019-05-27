@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project6.AppTest" time="0.218" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app/target/test-classes:/home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app/target/classes:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/com/datastax/cassandra/cassandra-driver-core/3.4.0/cassandra-driver-core-3.4.0.jar:/root/.m2/repository/io/netty/netty-handler/4.0.47.Final/netty-handler-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.0.47.Final/netty-buffer-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-common/4.0.47.Final/netty-common-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.0.47.Final/netty-transport-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.0.47.Final/netty-codec-4.0.47.Final.jar:/root/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/root/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.2/metrics-core-3.2.2.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/root/.m2/repository/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar:/root/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar:/root/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar:/root/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/root/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/root/.m2/repository/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar:/root/.m2/repository/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar:/root/.m2/repository/com/datastax/cassandra/cassandra-driver-mapping/3.4.0/cassandra-driver-mapping-3.4.0.jar:/root/.m2/repository/com/datastax/cassandra/cassandra-driver-extras/3.4.0/cassandra-driver-extras-3.4.0.jar:/root/.m2/repository/org/apache/kafka/kafka-streams/2.2.0/kafka-streams-2.2.0.jar:/root/.m2/repository/org/apache/kafka/connect-json/2.2.0/connect-json-2.2.0.jar:/root/.m2/repository/org/apache/kafka/connect-api/2.2.0/connect-api-2.2.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.8/jackson-datatype-jdk8-2.9.8.jar:/root/.m2/repository/org/rocksdb/rocksdbjni/5.15.10/rocksdbjni-5.15.10.jar:/root/.m2/repository/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0.jar:/root/.m2/repository/com/github/luben/zstd-jni/1.3.8-1/zstd-jni-1.3.8-1.jar:/root/.m2/repository/org/lz4/lz4-java/1.5.0/lz4-java-1.5.0.jar:/root/.m2/repository/org/xerial/snappy/snappy-java/1.1.7.2/snappy-java-1.1.7.2.jar:/root/.m2/repository/org/json/json/20180813/json-20180813.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app/target/surefire/surefirebooter2076383109372109425.jar /home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app/target/surefire 2019-05-22T17-51-11_956-jvmRun1 surefire8741474336491435847tmp surefire_07042685331478197786tmp"/>
+    <property name="surefire.test.class.path" value="/home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app/target/test-classes:/home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app/target/classes:/root/.m2/repository/junit/junit/4.11/junit-4.11.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/com/datastax/cassandra/cassandra-driver-core/3.4.0/cassandra-driver-core-3.4.0.jar:/root/.m2/repository/io/netty/netty-handler/4.0.47.Final/netty-handler-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.0.47.Final/netty-buffer-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-common/4.0.47.Final/netty-common-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.0.47.Final/netty-transport-4.0.47.Final.jar:/root/.m2/repository/io/netty/netty-codec/4.0.47.Final/netty-codec-4.0.47.Final.jar:/root/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/root/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.2/metrics-core-3.2.2.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/root/.m2/repository/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar:/root/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar:/root/.m2/repository/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar:/root/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/root/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/root/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/root/.m2/repository/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar:/root/.m2/repository/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar:/root/.m2/repository/com/datastax/cassandra/cassandra-driver-mapping/3.4.0/cassandra-driver-mapping-3.4.0.jar:/root/.m2/repository/com/datastax/cassandra/cassandra-driver-extras/3.4.0/cassandra-driver-extras-3.4.0.jar:/root/.m2/repository/org/apache/kafka/kafka-streams/2.2.0/kafka-streams-2.2.0.jar:/root/.m2/repository/org/apache/kafka/connect-json/2.2.0/connect-json-2.2.0.jar:/root/.m2/repository/org/apache/kafka/connect-api/2.2.0/connect-api-2.2.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.8/jackson-datatype-jdk8-2.9.8.jar:/root/.m2/repository/org/rocksdb/rocksdbjni/5.15.10/rocksdbjni-5.15.10.jar:/root/.m2/repository/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0.jar:/root/.m2/repository/com/github/luben/zstd-jni/1.3.8-1/zstd-jni-1.3.8-1.jar:/root/.m2/repository/org/lz4/lz4-java/1.5.0/lz4-java-1.5.0.jar:/root/.m2/repository/org/xerial/snappy/snappy-java/1.1.7.2/snappy-java-1.1.7.2.jar:/root/.m2/repository/org/json/json/20180813/json-20180813.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre"/>
+    <property name="basedir" value="/home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app/target/surefire/surefirebooter2076383109372109425.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_212-b04"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="3.10.0-957.12.1.el7.x86_64"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="user.dir" value="/home/damien/Documents/workspace/ooc/Projet6/kstream/workspace/meetup-streaming-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.212-b04"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="project6.AppTest" time="0.001"/>
+</testsuite>
