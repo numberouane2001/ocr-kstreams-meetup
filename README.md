@@ -4,9 +4,9 @@ Kafka Streams applications
 This repository contains the source code of the Kafka streams apps developped for the project ocr-k8s-meetup (a small app analysing the Meetup activities in France).
 
 PREREQUISITES: 
-It requires Eclipse IDE 2019-03 (or +).
-It requires Java 8.
-It requires Maven 3.0.5 (or +)
+- It requires Eclipse IDE 2019-03 (or +).
+- It requires Java 8.
+- It requires Maven 3.0.5 (or +)
 
 CONTENT: 
 It contents the POM file to initialize the project. It downloads the Cassandra drivers and the Kafka Streams library.
